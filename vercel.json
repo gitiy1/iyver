@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "routes": [
+    {"src": "/(.*)","dest": "https://cdn.jsdelivr.net/$1"},
+    {"src": "/","dest": "https://iceyear.ml"}
+    ],
+  "redirects": [
+    {"src": "/npm/(.*)", "destination": "http://127.0.0.1"}
+  ]
+}
+
+
+Author: GamerNoTitle
+Link: https://bili33.top/posts/vercel-reverse-proxy/
+Source: GamerNoTitle
+Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source.
